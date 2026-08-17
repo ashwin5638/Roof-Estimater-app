@@ -1,10 +1,5 @@
 const jwt = require("jsonwebtoken");
 
-const JWT_SECRET = process.env.JWT_SECRET;
-
-const ADMIN_USER = process.env.ADMIN_USER;
-const ADMIN_PASS = process.env.ADMIN_PASS;
-
 const login = async (req, res) => {
   try {
     const { username, password } = req.body;
@@ -14,6 +9,10 @@ const login = async (req, res) => {
         .status(400)
         .json({ message: "Username and password required" });
     }
+
+    const ADMIN_USER = process.env.ADMIN_USER;
+    const ADMIN_PASS = process.env.ADMIN_PASS;
+    const JWT_SECRET = process.env.JWT_SECRET;
 
     if (username !== ADMIN_USER || password !== ADMIN_PASS) {
       return res.status(401).json({ message: "Invalid credentials" });
