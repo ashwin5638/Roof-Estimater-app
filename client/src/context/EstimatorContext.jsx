@@ -10,7 +10,7 @@ const CONTACT_FIELDS = [
   { label: "Email", field: "email", type: "email", placeholder: "john@example.com" },
 ];
 
-// eslint-disable-next-line react-refresh/only-export-components
+
 export const useEstimator = () => {
   const context = useContext(EstimatorContext);
   if (!context) {
