@@ -78,7 +78,7 @@ const postEstimate = async (req, res) => {
     res.status(201).json({
       estimate_low,
       estimate_high,
-      currency: config.business.currency || "USD",
+      currency: config.business.currency || "INR",
     });
   } catch (error) {
     console.error("Estimate error:", error.message);

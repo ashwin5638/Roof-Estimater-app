@@ -11,9 +11,9 @@ const EstimateResult = () => {
   const { estimate_low, estimate_high, currency } = estimateResult;
 
   const formatCurrency = (amount) =>
-    new Intl.NumberFormat("en-US", {
+    new Intl.NumberFormat("en-IN", {
       style: "currency",
-      currency: currency || "USD",
+      currency: currency || "INR",
       maximumFractionDigits: 0,
     }).format(amount);
 

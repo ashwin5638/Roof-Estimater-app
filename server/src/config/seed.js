@@ -9,8 +9,8 @@ const seedConfig = {
 
   business: {
     name: "Northline Roofing & Exteriors",
-    region: "USA",
-    currency: "USD",
+    region: "India",
+    currency: "INR",
   },
 
   questions: [
@@ -32,9 +32,9 @@ const seedConfig = {
       required: true,
       active: true,
       options: [
-        { value: "asphalt", label: "Asphalt Shingles", rate_per_sqft: 4.5 },
-        { value: "metal", label: "Metal Roofing", rate_per_sqft: 8 },
-        { value: "tile", label: "Tile Roofing", rate_per_sqft: 10 },
+        { value: "asphalt", label: "Asphalt Shingles", rate_per_sqft: 375 },
+        { value: "metal", label: "Metal Roofing", rate_per_sqft: 665 },
+        { value: "tile", label: "Tile Roofing", rate_per_sqft: 830 },
       ],
     },
     {
@@ -56,9 +56,9 @@ const seedConfig = {
       required: true,
       active: true,
       options: [
-        { value: "one", label: "One Layer", tear_off_per_sqft: 1.0 },
-        { value: "two", label: "Two Layers", tear_off_per_sqft: 1.75 },
-        { value: "three", label: "Three Layers", tear_off_per_sqft: 2.5 },
+        { value: "one", label: "One Layer", tear_off_per_sqft: 83 },
+        { value: "two", label: "Two Layers", tear_off_per_sqft: 145 },
+        { value: "three", label: "Three Layers", tear_off_per_sqft: 208 },
       ],
     },
     {
@@ -77,7 +77,7 @@ const seedConfig = {
 
   modifiers: {
     waste_factor: 0.1,
-    permit_flat_fee: 350,
+    permit_flat_fee: 29050,
     range_spread_pct: 12,
   },
 };

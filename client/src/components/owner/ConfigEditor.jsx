@@ -177,7 +177,7 @@ const ConfigEditor = () => {
           </div>
           <div className="space-y-2">
             <label className="block text-sm font-semibold text-slate-700">
-              Permit Flat Fee ($)
+              Permit Flat Fee (₹)
             </label>
             <input
               type="number"
@@ -299,7 +299,7 @@ const ConfigEditor = () => {
                             {option.rate_per_sqft !== undefined && (
                               <div className="flex items-center gap-1">
                                 <span className="text-xs text-slate-500">
-                                  $/sqft
+                                  ₹/sqft
                                 </span>
                                 <input
                                   type="number"
