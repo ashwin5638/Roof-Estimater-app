@@ -163,6 +163,3 @@ Set environment variables in the Render dashboard:
 - `ADMIN_PASS`
 - `PORT` (Render sets this automatically)
 
-## License
-
-Private — Northline Roofing & Exteriors
