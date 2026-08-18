@@ -71,4 +71,4 @@ Run `node src/config/seed.js` from the server directory to reset config to defau
 2. Do we need email notifications when a lead is submitted?
 3. Should estimates expire after a certain time period?
 4. Do you want PDF export of estimates?
-5. What hosting provider do you prefer (Vercel, Netlify, Railway, Render)?
+
