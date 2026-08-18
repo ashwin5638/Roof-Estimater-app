@@ -13,7 +13,7 @@ A full-stack web application that provides instant roofing estimates to homeowne
 |----------|----------------------------------|
 | Frontend | React 19, Vite 8, Tailwind CSS v4 |
 | Backend  | Express 5, Node.js               |
-| Database | MongoDB Atlas (Mongoose 9 ODM)   |
+| Database | MongoDB Atlas  |
 | Auth     | JWT (jsonwebtoken)               |
 | Deploy   | Vercel (client), Render (server)  |
 
