@@ -4,7 +4,7 @@ A full-stack web application that provides instant roofing estimates to homeowne
 
 ## Live Demo
 
-**Frontend (Vercel)**: https://roof-estimator.vercel.app
+**Frontend (Vercel)**: https://roof-estimater-app.vercel.app/               
 **Backend (Render)**: https://roof-estimater-app.onrender.com
 
 ## Tech Stack
