@@ -1,4 +1,4 @@
-# RoofQuote — Roofing Estimator for Northline Roofing & Exteriors
+# RoofQuote — Roofing Cost Estimator 
 
 A full-stack web application that provides instant roofing estimates to homeowners in INR and gives the business owner a panel to manage configuration and view leads.
 
