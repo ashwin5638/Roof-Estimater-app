@@ -1,8 +1,7 @@
 import { useEstimator } from "../../context/EstimatorContext";
 
 const StepNavigation = () => {
-  const { currentStep, isContactStep, canProceed, submitting, goBack, goNext } =
-    useEstimator();
+  const { currentStep, isContactStep, canProceed, submitting, goBack, goNext } = useEstimator();
 
   return (
     <div className="mt-8 flex items-center justify-between">

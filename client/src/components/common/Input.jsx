@@ -12,7 +12,7 @@ const Input = () => {
           </label>
           <input
             type={type}
-            value={contact[field] || ""}
+            value={contact[field]}
             onChange={handleContactChange(field)}
             placeholder={placeholder}
             className="w-full rounded-lg border border-slate-300 p-3 outline-none focus:border-orange-500"
